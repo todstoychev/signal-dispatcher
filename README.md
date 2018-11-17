@@ -56,4 +56,4 @@ Checks if handler alisa exists.
 
 ### Methods
 
-###### ___init___(self, *string* message)
+###### \_\_init\_\_(self, *string* message)

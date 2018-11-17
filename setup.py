@@ -13,14 +13,14 @@ here = path.abspath(path.dirname(__file__))
 
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
-    print(long_description)
 
 setup(
     name='signal_dispatcher',
-    version='0.1.0',
+    version='0.1.1',
     description='Simple PyQt signal dispatcher. Used to connect signals with handlers.',
     author='Todor Todorov',
     author_email='todstoychev@gmail.com',
+    url='https://github.com/todstoychev/signal-dispatcher',
     classifiers=[
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
